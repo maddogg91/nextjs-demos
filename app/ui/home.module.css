@@ -6,10 +6,10 @@
     border-right: 20px solid transparent;
 }
 
-.left-pane{
+.leftPane{
 
     position: absolute;
-    left: 0;
+    left: 2%;
     width: 25%;
     height: 95%;
 }
@@ -53,16 +53,16 @@
     position: relative;
     left: -100px;
 }
-.home-img{
+.homeImg{
     width: 30%;
     height: 30%;
     position: relative;
     left: 30%;
 
 }
-.right-pane{
+.rightPane{
     position: absolute;
-    right: 0;
+    right: 2%;
     width: 25%;
     height: 95%;
 }
@@ -77,7 +77,7 @@
 }
 
 
-.home-text{
+.homeText{
     color: ghostwhite;
     text-align: center;
     font-family: Belanosima, serif;
@@ -88,7 +88,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.home-text-body{
+.homeTextBody{
     color: ghostwhite;
     text-align: center;
     font-family: Belanosima, serif;
@@ -120,7 +120,7 @@
     top: 5%;
 
 }
-.ad-img{
+.adImg{
     width: 100%;
     opacity: .9;
 }
@@ -130,7 +130,7 @@
     left: 12%;
 }
 
-.ad-img:hover {
+.adImg:hover {
     -ms-transform: scale(1.2); /* IE 9 */
     transform: scale(1.2);
 }
@@ -159,8 +159,8 @@
 }
 
 #backdrop{
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
 
 }
 
@@ -193,7 +193,7 @@
     .cb{
         left: 40%;
     }
-    .home-text-body{
+    .homeTextBody{
         padding-top: 40%;
     }
     .logo{
@@ -207,7 +207,7 @@
 
 /* ---Extra Large Screens --- */
 @media screen and (min-width: 1201px) and (max-width: 1919px) {
-    .home-text-body{
+    .homeTextBody{
         padding-top: 40%;
         font-size: 28px;
     }
@@ -261,12 +261,12 @@
     .copyright{
         left: 0px;
     }
-    .home-text{
+    .homeText{
         font-size: 28px;
         word-spacing: normal;
         letter-spacing: normal;
     }
-    .home-text-body{
+    .homeTextBody{
         font-size: 18px;
         padding-top: 90%;
     }
@@ -282,13 +282,13 @@
     .top{
         top: 55%;
     }
-    .ad-img{
+    .adImg{
         height: 75%;
     }
     .ad h5{
         font-size: 10px;
     }
-    .home-img{
+    .homeImg{
         position: absolute;
         top: 50%;
         width: 35%;
